@@ -1,6 +1,6 @@
 use laboratoriofm;
 create table videojuegos(
-codigoVJ int(10) primary key not null,
+codigoVJ int(10) auto_increment primary key not null,
 nombre varchar(25) not null,
 precio float(6) not null,
 genero varchar(25) not null,
