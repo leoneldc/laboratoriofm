@@ -199,6 +199,7 @@ private static Connection con;
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/laboratoriofm", "root", "");
             PreparedStatement pst = cn.prepareStatement("insert into videos values(?,?,?,?,?,?)");
             pst.setString(1, "1");
+            pst.setString(2, jTextField1.getText().trim());
             pst.setString(3, jTextField2.getText().trim());
             pst.setString(4, jTextField3.getText().trim()); 
             pst.setString(5, jTextField5.getText().trim());
