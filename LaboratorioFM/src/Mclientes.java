@@ -186,8 +186,8 @@ public class Mclientes extends javax.swing.JInternalFrame {
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/laboratoriofm", "root", "");
             PreparedStatement pst = cn.prepareStatement("insert into clientes values(?,?,?,?,?)");
             
-            pst.setString(1, "si");
-            pst.setString(2, "0");
+            pst.setString(1, "0");
+            pst.setString(2, "si");
             pst.setString(3, jTextField3.getText().trim());
             pst.setString(4, jTextField4.getText().trim()); 
             pst.setString(5, jTextField5.getText().trim());
