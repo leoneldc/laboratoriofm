@@ -15,7 +15,6 @@ public class Menú extends javax.swing.JFrame {
     private Mclientes NuevaVentana1;
     private MVideo NuevaVentana2;
     private MVideoJuegos NuevaVentana3;
-    private FCompra NuevaVentana4;
     /**
      * Creates new form Menú
      */
@@ -150,8 +149,6 @@ public class Menú extends javax.swing.JFrame {
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
         // TODO add your handling code here:
-        NuevaVentana4 = new FCompra();
-        panel.add(NuevaVentana4);
     }//GEN-LAST:event_jMenuItem5ActionPerformed
 
     /**
