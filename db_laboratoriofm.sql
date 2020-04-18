@@ -7,7 +7,7 @@ genero varchar(25) not null,
 compañia varchar(25) not null,
 existencia varchar(3)not null)ENGINE=INNODB default CHARSET=LATIN1;
 create table videos(
-codigoVS int(10) primary key not null,
+codigoVS int(10) auto_increment primary key not null,
 nombre varchar(20) not null,
 precio int(6) not null,
 genero varchar(25) not null,
